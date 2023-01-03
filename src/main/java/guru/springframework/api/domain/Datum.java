@@ -1,4 +1,4 @@
-package guru.springframework.api.Domain;
+package guru.springframework.api.domain;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,7 +10,7 @@ public class Datum{
     public Name name;
     public Location location;
     public String email;
-    public guru.springframework.api.Domain.Login login;
+    public Login login;
     public String phone;
     public Job job;
     public Billing billing;
